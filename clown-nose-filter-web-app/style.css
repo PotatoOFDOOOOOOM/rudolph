@@ -1,0 +1,13 @@
+.btn-success:hover
+{
+    background-color:red;
+}
+canvas{
+    animation-name:tacogod;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes tacogod{
+    from{box-shadow:1px 1px 1000000px teal;}
+    to{box-shadow:1px 1px 1000000px green;}
+}
